@@ -1,0 +1,654 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 13, 2014, 10:55:32 AM
+    Author     : Kari
+*/
+
+body
+{
+    border-top: 5px solid #e56038;
+    background: #ebe8de;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+input
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    padding: 7px;
+    outline: 0;
+    border:0;
+    width:250px;
+    background: #EBE8DE;
+    border-radius:5px;
+}
+
+input[type=submit]
+{
+    width:auto;
+    padding: 5px 18px;
+    line-height:25px;
+    text-shadow:none;
+    cursor:pointer;
+    box-shadow: none;
+    background: #333333;
+    color: #fff;
+}
+
+p
+{
+    margin: 5px 0;
+    line-height: 25px;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+    transition: color .5s ease;
+}
+
+strong
+{
+    font-weight: bold;
+
+}
+
+figcaption
+{
+    line-height: 25px;
+    font-size:14px;
+    width:200px;
+}
+
+figcaption strong
+{
+    border-bottom: 1px solid #D6D0C1;
+    padding-bottom:10px;
+    margin: 10px 0;
+    display:block;
+}
+
+header
+{
+    position:relative;
+    width:auto;
+    max-width:900px;
+    margin: 0 auto 40px auto;
+}
+
+header h1
+{
+    margin: 35px 0 0 0;
+    font-size: 55px;
+    color: #e56038;
+    font-family: 'Baumans', cursive;
+}
+
+header p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4A463B;
+    margin-left:132px;
+}
+
+nav ul
+{
+    list-style:none;
+}
+
+nav ul li
+{
+    display:block;
+    float:left;
+    padding:3px 15px;
+}
+
+nav ul li a
+{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    transition: all .25s ease;
+}
+
+nav ul li a:hover
+{
+    color: #E56038;
+}
+/*
+table {
+    border-collapse: separate;
+    width: 100%;
+    border: none;
+}*/
+
+tr {
+    height: 20px;
+    padding: 5px 0 10px 25px;
+    border-bottom: 1px solid #444444;
+}
+
+td {
+    padding: 5px 15px 10px 25px;
+    margin-right: 25px;
+}
+
+table.tblfixed {
+    table-layout: fixed;
+    margin-top: 15px;
+    border: none;
+}
+
+/* section styling */
+
+#slider_content1, #slider_content2, #slider_content3
+{
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    width:350px;
+    position:absolute;
+    top:15%;
+    left:15%;
+    display:none;
+    z-index:11;
+}
+
+#slider_content1, #slider_content2, #slider_content3
+{
+    display:block;
+}
+
+.container
+{
+    width: auto;
+    height: 430px; /* hmm... */
+    margin: 0 auto;
+    position: relative;
+    /* slides ei toimi */
+    background-image: url("../img/kuva1_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* bxslideri */
+
+.slideshow {
+    width: 80%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: auto;
+    padding: 1em 1em 0.1em;
+}
+
+.bxslider{
+    margin: 0;
+    padding: 0;
+
+}
+
+.bxslider li img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -100%;
+    max-height: 300px;
+    width: 100%;
+}
+
+.bxslider li div{
+    vertical-align: middle;
+    margin-left: 2em;
+    width: 50%;
+    display: inline-block;
+    background: rgba(255,255,255,.85);
+    padding: 0 1em;
+    border-radius: 4px;
+}
+
+
+/*
+#sliderwrap{
+    width: auto;
+    height: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+.bxslider {
+    /*width: auto;
+    background-color: #c41230;
+    background-size: cover;
+    position: relative;
+    *
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+    float: none
+}*/
+
+
+
+
+#slider_content1 h3, #slider_content2 h3, #slider_content3 h3
+{
+    color:#EBE8DE;
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:10px;
+    background-color:#333333;
+    padding:10px 15px;
+    border-radius: 15px 0 15px 0;
+    display:inline-block;
+}
+
+#slider_content1 p, #slider_content2 p, #slider_content3 p
+{
+    margin:0 0 30px 0;
+    color:#4a463b;
+    background-color:#EBE8DE;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+
+
+/* section boxcontent */
+
+#boxcontent
+{
+    width:auto;
+    max-width:900px;
+    position: relative; /* hmm... */
+    margin:0 auto;
+    padding: 10px 0 45px 0;
+}
+
+#boxcontent article
+{
+    float:left;
+    /*position: relative; /* kh*/
+    width:550px; /* 250 */
+    margin-right:45px;
+    margin-top: 30px;
+    font-size:14px;
+}
+
+#boxcontent article h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+    margin-left:75px;
+}
+
+#boxcontent article img
+{
+    float:left;
+}
+
+#boxcontent article p
+{
+    line-height:25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:75px;
+}
+
+/* Read more toimiin... */
+/*
+#boxcontent .readmore
+{
+    color: #E56038;
+}*/
+
+#boxcontent span
+{
+    float:left;
+    /*position: relative; /* kh*/
+    width:550px; /* 250 */
+    margin-left: 75px;
+    /*margin-right:45px;*/
+    margin-top: 10px;
+    font-size:12px;
+}
+
+#boxcontent span:hover /*.readmore*/
+{
+    color: #E56038;
+}
+/*
+#boxcontent .message
+{
+    display: none;
+}*/
+
+#boxcontent article .message
+{
+    line-height:25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:75px;
+}
+
+#boxcontent article .message2
+{
+    line-height:25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:75px;
+}
+
+/* footer */
+
+footer
+{
+    position:relative;
+    clear:both;
+    width:auto;
+    height:325px;
+    background:#333333;
+}
+
+footer .wrapper
+{
+    line-height:25px;
+    margin: 0 auto;
+    padding-top:30px;
+    width:auto;
+    max-width:900px;
+    font-size:14px;
+}
+
+footer .wrapper .column
+{
+    font-family: 'Open Sans', sans-serif;
+    color:#ababab;
+    float:left;
+    width:280px;
+    margin-right:20px;
+}
+
+footer .wrapper .column.midlist ul li
+{
+    width:auto;
+    padding:0 0 10px 25px;
+    margin-bottom:10px;
+    border-bottom: 1px solid #444444;
+    background:url(../img/right33.png) left 6px no-repeat;
+}
+
+footer .wrapper .column.midlist ul li a:hover
+{
+    color:#fff;
+}
+
+.tblfixed td{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+/* TODO: valkoinen korostus kun hover linkkiin*/
+
+.tblfixed td a:hover, td span:hover
+{
+    color:#fff;
+}
+
+.tblfixed td a
+{
+    opacity: 0.6;
+}
+
+.tblfixed td a:hover
+{
+    opacity: 0.9;
+}
+
+/* copyright */
+
+#copyright
+{
+    background: #1D1D1D;
+    height:70px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+#copyright .wrapper
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-top:25px;
+    color: #5e5e5e;
+    font-size:14px;
+    position:relative;
+    margin-bottom: 0;
+}
+
+
+#copyright .wrapper .social
+{
+    position:absolute;
+    right:0;
+    top:25px;
+}
+
+#copyright .wrapper .social a
+{
+    transition: opacity .25s ease;
+    opacity: 0.5;
+    margin-left: 12px;
+    display:block;
+    float:left;
+}
+
+#copyright .wrapper .social a:hover
+{
+    opacity: 0.9;
+}
+
+#copyright .wrapper a
+{
+    color: #ABABAB;
+}
+
+#copyright .wrapper a:hover
+{
+    color: #fff;
+}
+
+/* MISC */
+
+.clear
+{
+    clear:both;
+}
+
+.hidden
+{
+    position:absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/*** Contact form ***/
+
+*:focus {outline: none;}
+
+.contact_form h2, .contact_form label {font-family:Georgia, Times, "Times New Roman", serif;}
+.form_hint, .required_notification {font-size: 11px;}
+
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin: 0 auto;
+    padding:0 0 100px 0; /* 125px, jotta footer saatu alareunaan. Ei optimaalinen viritys, jo spienetää ikkunaa. */
+}
+.contact_form li{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+.contact_form li:first-child, .contact_form li:last-child {
+    border-bottom:1px solid #777;
+}
+
+.contact_form h2 {
+    margin:0;
+    display: inline;
+}
+.required_notification {
+    color:#d45252;
+    margin:5px 0 0 0;
+    display:inline;
+    float:right;
+}
+
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.contact_form input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+
+.contact_form input, .contact_form textarea {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+    padding-right:30px;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right:70px;
+}
+
+input:required, textarea:required {
+    background: #fff url(../img/asterisk_red.png) no-repeat 98% center;
+    background-size: 5%;
+}
+
+::-webkit-validation-bubble-message {
+    padding: 5em;
+    ;
+}
+
+/* Button Style */
+button.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+
+}
+
+.error { display: none; padding:10px; color: #D8000C; font-size:12px;background-color: #FFBABA;}
+.success { display: none; padding:10px; color: #044406; font-size:12px;background-color: #B7FBB9;}
+
+
+.contact_form li:span
+{
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size:10px;
+
+}
+
+.contact_form a {font-family:Georgia, Times, "Times New Roman", serif; color: #20911e}
+
+.contact_form a:hover
+{
+    color: #E56038;
+}
+
+
+
+
+/*** page career.html ***/
+
+/* section boxcontent2 */
+
+#boxcontent2
+{
+    width:auto;
+    max-width:900px;
+    position: relative; /* hmm... */
+    margin:0 auto;
+    padding:30px 0 45px 0;
+}
+
+#boxcontent2 article
+{
+    float:left;
+    /*position: relative; /* kh*/
+    width:550px; /* 250 */
+    margin-right:45px;
+    margin-top: 30px;
+    font-size:14px;
+}
+
+#boxcontent2 article h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    margin-bottom:10px;
+    margin-right:75px;
+}
+
+#boxcontent2 article img
+{
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+#boxcontent2 article p
+{
+    position: relative;
+    line-height:25px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    /*margin-left:10px;*/
+}
+
+
+
+
+

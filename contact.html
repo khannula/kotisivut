@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Yhteydenotto</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Baumans' rel='stylesheet' type='text/css'/>
+    <script src="js/modernizr.js"></script>
+    <script src="js/respond.js"></script>
+
+    <!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/1.11.1.jquery.min"><\/script>')</script>
+
+</head>
+<body>
+    <header>
+        <h1>Ota yhteyttä</h1>
+    </header>
+    <!--Tähän yhteyslomake. PHP otettu pois, kun ei toimi.-->
+    <!--form class="contact_form" action="" method="post" name="contact_form"-->
+    <form class="contact_form" action="http://formspree.io/kari.t.hannula@gmail.com" method="post" name="contact_form">
+
+    <ul>
+        <li>
+            <h2>Täytä tiedot</h2>
+            <span class="required_notification">* Pakollinen tieto</span>
+        </li>
+        <li>
+            <label for="name">Nimi:</label>
+            <input type="text" name="name" id="name" placeholder="Ville Virtanen" required x-moz-errormessage="Nimi pitää antaa." />
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" name="_replyto" id="email" placeholder="ville.virtanen@firma.com" required x-moz-errormessage="Sähköpostiosoite pitää antaa."/>
+            <span class="form_hint">Muodossa "nimi@jotain.com"</span>
+        </li>
+        <li>
+            <label for="message">Viesti:</label>
+            <textarea name="message" id="message" cols="40" rows="6" required x-moz-errormessage="Viesti pitää antaa."></textarea>
+        </li>
+        <li>
+            <button class="submit" type="submit">Lähetä</button>
+
+            <div id='mail_success' class='success'><img src='images/success.png'> Thank you. The mailman is on his way.</div>
+            <div id='mail_fail' class='error'><img src='images/error.png'> Sorry, don't know what happened. Try later.</div>
+        </li>
+        <li>
+            <span><a href=index.html>Takaisin etusivulle</a></span>
+        </li>
+    </ul>
+
+
+    </form>
+
+    <br class="clear"/>
+    <footer>
+        <h2 class="hidden">Our footer</h2>
+        <section id="copyright">
+            <h3 class="hidden">Copyright notice</h3>
+            <div class="wrapper">
+                &copy; Copyright 2015 by <a href="index.html">Kari Himself</a>. All Rights Reserved.
+            </div>
+        </section>
+
+    </footer>
+</body>
+</html>
