@@ -33,51 +33,6 @@
     <!-- Own javascript -->
     <script src="js/myscripts.js"></script>
 
-    <!-- Talla read more koko ajan nakyvissa ja sita klikkaamalla teksti show tai haviaa-->
-    <script>
-
-        $(document).ready(function() {
-
-            var text = "Lisää...";
-            document.getElementById("demo").innerHTML = text;
-
-            $(".message").hide();
-            $(".message2").hide();
-
-            $(".readmore").click(function() {
-                // TODO Tee paremmin toi text/text2/demo/demo2-osuus
-                if ($(".message").is(":visible")) {
-                    $(".message").hide();
-                    text = "Lisää...";
-                    document.getElementById("demo").innerHTML = text;
-                } else {
-                    $(".message").show("slow");
-                    text = "Sulje...";
-                    document.getElementById("demo").innerHTML = text;
-                }
-            });
-            var text2 = "Lisää...";
-            document.getElementById("demo2").innerHTML = text2;
-            $(".readmore2").click(function() {
-                if ($(".message2").is(":visible")) {
-                    $(".message2").hide();
-                    text2 = "Lisää...";
-                    document.getElementById("demo2").innerHTML = text2;
-                } else {
-                    $(".message2").show("slow");
-                    text2 = "Sulje...";
-                    document.getElementById("demo2").innerHTML = text2;
-                }
-            });
-
-            $(".emptyline")
-            {
-                document.getElementById("eline").innerHTML = '\n';
-            }
-
-        });
-    </script>
-
 </head>
 <body>
     <header>
@@ -126,7 +81,7 @@
             <h3>Työ ja osaaminen</h3>
             <p>Olen ohjelmistokehittäjä, jolla vankka osaaminen olio-ohjelmoinnista monissa tuotekehitysprojekteissa.
             </p>
-            <span class="readmore"><div id="demo"></div></span>
+            <span class="readmore"><div id="demo">showHideText()</div></span>
             <span class="emptyline"><div id="eline"></div></span>
 
             <div class="message">
