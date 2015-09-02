@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myslider.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myslider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/myslider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10691824" vertical-offset="0" max-vertical-offset="1972">
+            <state vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1972">
               <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="freetime.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="freetime.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/freetime.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="2567">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2652796" vertical-offset="1275" max-vertical-offset="2567">
+              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -126,9 +126,9 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/freetime.html" />
         <option value="$PROJECT_DIR$/js/myslider.js" />
         <option value="$PROJECT_DIR$/js/myscripts.js" />
+        <option value="$PROJECT_DIR$/freetime.html" />
       </list>
     </option>
   </component>
@@ -136,9 +136,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="61" />
-    <option name="width" value="1644" />
+    <option name="x" value="59" />
+    <option name="y" value="80" />
+    <option name="width" value="1299" />
     <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -281,7 +281,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="61" width="1644" height="944" extended-state="0" />
+    <frame x="59" y="80" width="1299" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -289,7 +289,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31722525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -755,25 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/freetime.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="2567">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="44.307693" vertical-offset="1526" max-vertical-offset="2295">
@@ -792,10 +773,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/myslider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10691824" vertical-offset="0" max-vertical-offset="1972">
+        <state vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1972">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freetime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2652796" vertical-offset="1275" max-vertical-offset="2567">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#article#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
