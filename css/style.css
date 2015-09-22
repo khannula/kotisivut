@@ -84,7 +84,7 @@ header
 
 header h1
 {
-    margin: 35px 0 0 0;
+    margin: 35px 0 0 20px;
     font-size: 55px;
     color: #e56038;
     font-family: 'Baumans', cursive;
@@ -209,29 +209,6 @@ table.tblfixed {
     border-radius: 4px;
 }
 
-
-/*
-#sliderwrap{
-    width: auto;
-    height: 430px;
-    margin: 0 auto;
-    position: relative;
-}
-.bxslider {
-    /*width: auto;
-    background-color: #c41230;
-    background-size: cover;
-    position: relative;
-    *
-    width: auto;
-    vertical-align: middle;
-    display: inline-block;
-    float: none
-}*/
-
-
-
-
 #slider_content1 h3, #slider_content2 h3, #slider_content3 h3
 {
     color:#EBE8DE;
@@ -252,7 +229,6 @@ table.tblfixed {
     padding:10px 15px;
     border-radius: 5px;
 }
-
 
 /* section boxcontent */
 
@@ -295,13 +271,6 @@ table.tblfixed {
     margin-left:75px;
 }
 
-/* Read more toimiin... */
-/*
-#boxcontent .readmore
-{
-    color: #E56038;
-}*/
-
 #boxcontent span
 {
     float:left;
@@ -313,15 +282,10 @@ table.tblfixed {
     font-size:12px;
 }
 
-#boxcontent span:hover /*.readmore*/
+#boxcontent span:hover
 {
     color: #E56038;
 }
-/*
-#boxcontent .message
-{
-    display: none;
-}*/
 
 #boxcontent article .message
 {
@@ -424,7 +388,6 @@ footer .wrapper .column.midlist ul li a:hover
     position:relative;
     margin-bottom: 0;
 }
-
 
 #copyright .wrapper .social
 {
@@ -577,12 +540,10 @@ button.submit:hover {
 button.submit:active {
     border: 1px solid #20911e;
     box-shadow: 0 0 10px 5px #356b0b inset;
-
 }
 
 .error { display: none; padding:10px; color: #D8000C; font-size:12px;background-color: #FFBABA;}
 .success { display: none; padding:10px; color: #044406; font-size:12px;background-color: #B7FBB9;}
-
 
 .contact_form li:span
 {
@@ -598,9 +559,6 @@ button.submit:active {
 {
     color: #E56038;
 }
-
-
-
 
 /*** page career.html ***/
 
@@ -674,7 +632,6 @@ button.submit:active {
     background: black;
     text-align: center;
 }
-
 
 .slider_wrapper{
     overflow: hidden;
@@ -875,3 +832,62 @@ button.submit:active {
 }
 
 /* Thumbnail Navigator Skin End */
+
+/* Responsible tuning */
+
+@media (max-width: 915px) {
+    #boxcontent article
+    {
+        padding: 10px 0 5px 20px;
+    }
+    #boxcontent2 article
+    {
+        padding: 10px 0 5px 20px;
+    }
+    #boxcontent article h3 {
+        color: indianred;
+    }
+    #boxcontent2 article h3 {
+        color: indianred;
+    }
+    .hidden-item-915{
+        display: none;
+    }
+}
+
+@media (max-width: 615px) {
+    #boxcontent article
+    {
+        float:left;
+        width:400px;
+        margin-right:auto;
+        font-size:12px;
+        padding: 10px 0 0 0px;
+    }
+    #boxcontent2 article
+    {
+        float:left;
+        width:400px;
+        margin-right:auto;
+        font-size:12px;
+        padding: 10px 0 0 10px;
+    }
+    #boxcontent2 article h3{
+        color: #20911e;
+    }
+    #boxcontent2 article h3{
+        color: #20911e;
+    }
+    #boxcontent article img
+    {
+        float:left;
+        padding: 0 0 0 20px;
+    }
+    .hidden-item-615{
+        display: none;
+    }
+    .slideshow{
+        display: none;
+    }
+}
+
